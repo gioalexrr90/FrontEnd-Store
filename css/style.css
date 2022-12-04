@@ -94,7 +94,7 @@ img {
     color: var(--secundario);
 }
 
-/* Main */
+/* Main - index.html */
 /* Grid */
 .grid {
     display: grid;
@@ -166,6 +166,29 @@ img {
     }
 }
 
+/* Main - nosotros.html */
+.nosotros {
+    display: grid;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .nosotros {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+.nosotros__contenido {
+
+}
+
+.nosotros__imagen {
+    background-image: url('/img/nosotros.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1 / 2;
+}
 
 /* Footer */
 .footer {
