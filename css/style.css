@@ -118,9 +118,9 @@ img {
     width: 100%;
 }
 
-.producto__informacion {
+/* .producto__informacion {
 
-}
+} */
 
 .producto__informacion--nombre {
     font-size: 3rem;
@@ -187,13 +187,13 @@ img {
 }
 
 /* section - nosotros.html */
-.comprar {
+/* .comprar {
 
 }
 
 .comprar__titulo {
 
-}
+} */
 
 .bloques {
     display: grid;
