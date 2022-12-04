@@ -179,15 +179,44 @@ img {
     }
 }
 
-.nosotros__contenido {
-
-}
-
 .nosotros__imagen {
     background-image: url('/img/nosotros.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-row: 1 / 2;
+}
+
+/* section - nosotros.html */
+.comprar {
+
+}
+
+.comprar__titulo {
+
+}
+
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+@media (min-width: 768px) {
+    .bloques {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.bloque {
+    text-align: center;
+}
+
+.bloque_titulo {
+    margin: 0;
+}
+
+.nosotros,
+.bloques {
+    margin: 2rem;
 }
 
 /* Footer */
